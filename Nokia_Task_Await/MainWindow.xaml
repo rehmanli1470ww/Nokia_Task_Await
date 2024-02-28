@@ -1,0 +1,92 @@
+﻿<Window x:Class="Nokia_Task_Await.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nokia_Task_Await"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="300">
+    <Grid Background="CadetBlue">
+        
+        <RichTextBox Name="MetnTextBox" FontSize="18" Width="230" Height="100" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 10"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 120 0 0">
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <Button Width="110" Height="40" Margin="5 0 0 0" Click="Clear_Click">
+                    <TextBlock Text="Clear" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold"/>
+                </Button>
+                <Button Width="110" Height="40" Margin="10 0 5 0" Click="Add_Click">
+                    <TextBlock Text="Add" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold"/>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <Button Width="70" Height="70" Margin="5"  Click="Button_Click_1">
+                    <TextBlock Text="1" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                </Button>
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_2">
+                    <StackPanel>
+                        <TextBlock Text="2" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                        <TextBlock Text="ABC" HorizontalAlignment="Center" FontSize="15" FontWeight="Black"/>
+                    </StackPanel>
+                </Button>
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_3">
+                    <StackPanel>
+                        <TextBlock Text="3" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                        <TextBlock Text="DEF" HorizontalAlignment="Center" FontSize="15" FontWeight="Black"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_4">
+                    <StackPanel>
+                        <TextBlock Text="4" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                        <TextBlock Text="JKL" HorizontalAlignment="Center" FontSize="15" FontWeight="Black"/>
+                    </StackPanel>
+                </Button>
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_5">
+                    <StackPanel>
+                        <TextBlock Text="5" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                        <TextBlock Text="JKL" HorizontalAlignment="Center" FontSize="15" FontWeight="Black"/>
+                    </StackPanel>
+                </Button>
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_6">
+                    <StackPanel>
+                        <TextBlock Text="6" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                        <TextBlock Text="MNO" HorizontalAlignment="Center" FontSize="15" FontWeight="Black"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_7">
+                    <StackPanel>
+                        <TextBlock Text="7" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                        <TextBlock Text="PQRS" HorizontalAlignment="Center" FontSize="15" FontWeight="Black"/>
+                    </StackPanel>
+                </Button>
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_8">
+                    <StackPanel>
+                        <TextBlock Text="8" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                        <TextBlock Text="TUV" HorizontalAlignment="Center" FontSize="15" FontWeight="Black"/>
+                    </StackPanel>
+                </Button>
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_9">
+                    <StackPanel>
+                        <TextBlock Text="9" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                        <TextBlock Text="WXYZ" HorizontalAlignment="Center" FontSize="15" FontWeight="Black"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_Ulduz">
+                    <TextBlock Text="*" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                </Button>
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_0">
+                    <TextBlock Text="0" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                </Button>
+                <Button Width="70" Height="70" Margin="5" Click="Button_Click_Dies">
+                    <TextBlock Text="#" HorizontalAlignment="Center" FontSize="22" FontWeight="Black"/>
+                </Button>
+            </StackPanel>
+           
+        </StackPanel>
+    </Grid>
+</Window>
